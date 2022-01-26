@@ -1,0 +1,789 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff !important;
+}
+
+.navbar {
+  background-color: #fff9f3 !important;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.navbar .navbar-brand img {
+  width: 90px;
+}
+
+.navbar .navbar-toggler {
+  background-color: #ffc178;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  color: black !important;
+  font-weight: 700;
+  font-family: "Work Sans";
+  text-transform: capitalize;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc178 !important;
+}
+
+.navbar .active .nav-link {
+  color: #ffc178 !important;
+  border-bottom: 2px solid #ffc178 !important;
+}
+
+.navbar .Apply-Now {
+  text-align: center;
+  font-weight: 400;
+  width: 132px;
+  height: 44px;
+  color: #ffc178 !important;
+  border-radius: 22px;
+  -webkit-box-shadow: 0px 9px 35px #e3e3e9 !important;
+          box-shadow: 0px 9px 35px #e3e3e9 !important;
+  background-color: #ffffff !important;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
+.navbar .Apply-Now:hover {
+  -webkit-box-shadow: 0px 3px 5px #1d232e !important;
+          box-shadow: 0px 3px 5px #1d232e !important;
+  color: #1d232e !important;
+}
+
+.header .text {
+  position: absolute;
+  top: 210px;
+  margin-left: 90px;
+}
+
+.header .text h2 {
+  font-size: 40px;
+  line-height: 56px;
+  color: #ffc178;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+
+.header .text P {
+  font-size: 16px;
+  line-height: 26px;
+  color: #5a6e79;
+  font-weight: 400;
+  font-family: "Work Sans";
+  padding-bottom: 10px;
+}
+
+.header .text a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 20px;
+  font-family: "Work Sans";
+  border-radius: 29px;
+  background-color: #ffc178;
+  -webkit-transition: all ease .6s;
+  transition: all ease .6s;
+}
+
+.header .text a:hover {
+  color: #1d232e;
+}
+
+.banner-bottom .leaf-right {
+  position: absolute;
+  right: 250px;
+  width: 125px;
+  margin-top: -160px;
+  z-index: 1000;
+}
+
+.banner-bottom .leaf-left {
+  position: absolute;
+  left: 110px;
+  width: 180px;
+  margin-top: -125px;
+  z-index: 1000;
+}
+
+.Department h2 {
+  font-size: 40px;
+  color: #252c3a;
+  font-weight: 700;
+  font-family: "Work Sans";
+  text-align: center;
+}
+
+.Department p {
+  margin: auto;
+  width: 583px;
+  height: 64px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5a6e79;
+  font-weight: 400;
+  font-family: "Work Sans";
+  text-align: center;
+}
+
+.Department .card {
+  background-color: #f9703a;
+  border-radius: 1px;
+  height: 390px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Department .card:hover h3 {
+  color: black;
+}
+
+.Department .card img {
+  -webkit-transition: all ease .7s;
+  transition: all ease .7s;
+}
+
+.Department .card:hover img {
+  -webkit-transform: scale(1.16);
+          transform: scale(1.16);
+}
+
+.Department .card .card-body h3 {
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Work Sans";
+  text-align: center;
+  -webkit-transition: all ease .8s;
+  transition: all ease .8s;
+}
+
+.Department .card .card-body:hover h3 {
+  color: black;
+}
+
+.department-2 h2 {
+  font-size: 40px;
+  line-height: 56px;
+  color: #252c3a;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+.department-2 p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #5a6e79;
+  font-weight: 400;
+  font-family: "Work Sans";
+}
+
+.department-2 .circle {
+  position: absolute;
+  margin-left: -270px;
+  width: 300%;
+  z-index: -1000;
+  margin-top: -135px;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.department-2 .numbers h2 {
+  font-size: 40px;
+  color: #43cb83;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
+.University {
+  padding-bottom: 140px;
+}
+
+.University h2 {
+  font-size: 40px;
+  line-height: 56px;
+  color: #252c3a;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.University .card {
+  border-radius: 4px;
+  background-color: #ffffff;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.University .card:hover h4 {
+  color: #ffc178;
+}
+
+.University .card:hover {
+  -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.9);
+          box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
+}
+
+.University .card img {
+  height: 200px;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+}
+
+.University .card .card-body h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: "Work Sans";
+}
+
+.University .card .card-body p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #5a6e79;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.footer {
+  background-color: #252c3a;
+  margin-top: -40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer h2 {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Cairo";
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #969595;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.footer h3 {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.footer h6 {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  margin-top: -17px;
+  font-weight: 400;
+  margin-left: 50px;
+  font-family: "Roboto";
+}
+
+.footer ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #969595;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+}
+
+.footer ul li span {
+  color: #746f6f;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul li:hover {
+  color: #2874A6;
+  cursor: pointer;
+}
+
+.footer i {
+  font-size: 18px;
+  color: white;
+}
+
+.footer .social {
+  padding: 5px 8px;
+  background-color: #1F618D;
+  color: white;
+  border-radius: 10%;
+  margin-left: 4px;
+  font-size: 17px;
+}
+
+.footer .social:hover {
+  cursor: pointer;
+}
+
+.footer .facebook:hover {
+  background-color: #3B5998;
+  cursor: pointer;
+}
+
+.footer .twitter:hover {
+  background-color: #55ACEE;
+  cursor: pointer;
+}
+
+.footer .instagram:hover {
+  background-color: #e4405f;
+  cursor: pointer;
+}
+
+.footer .facebook {
+  padding: 5px 10px;
+}
+
+.footer .google:hover {
+  cursor: pointer;
+  background-color: #FF0000;
+}
+
+.footer .linkedin:hover {
+  background-color: #007bb5;
+  cursor: pointer;
+}
+
+.footer form input {
+  border-radius: 1px;
+  width: 100%;
+  font-size: 13px;
+  color: #969595;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.footer form a {
+  padding: 5px 15px;
+  text-decoration: none;
+  color: white;
+  background-color: #ffc178;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.end {
+  padding-top: 10px;
+  padding-bottom: px;
+  background-color: #1d232e;
+}
+
+.end P {
+  font-size: 13px;
+  color: #6b6b6b;
+  font-weight: 400;
+  margin-top: 5px;
+  font-family: "Roboto";
+}
+
+.end #btn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 5px;
+  border: none;
+  outline: none;
+  background-color: #ffc178;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.end #btn:hover {
+  color: black;
+}
+
+@media (max-width: 459px) {
+  .navbar .navbar-toggler {
+    background-color: #ffc178;
+    margin-top: 20px;
+  }
+  .header {
+    margin-top: 91px;
+  }
+  .header .text {
+    top: 90px;
+    margin-left: 10px;
+  }
+  .header .text h2 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .header .text P {
+    font-size: 10px;
+    line-height: 12px;
+    width: 190px;
+    padding-bottom: 0%;
+    margin-bottom: 1%;
+  }
+  .header .text a {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  .Department h2 {
+    font-size: 25px;
+  }
+  .Department p {
+    margin: auto;
+    width: 290px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5a6e79;
+    font-weight: 400;
+    font-family: "Work Sans";
+    text-align: -webkit-match-parent;
+    margin-bottom: 50px;
+  }
+  .Department .card {
+    background-color: #f9703a;
+    border-radius: 1px;
+    height: 390px;
+  }
+  .Department .card .card-body h3 {
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+    text-align: center;
+  }
+  .department-2 h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 80px;
+    text-align: -webkit-center;
+  }
+  .department-2 .circle {
+    position: absolute;
+    margin-left: -180px;
+    width: 300%;
+    z-index: -1000;
+    margin-top: -50px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  .University h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .University .card3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .University .card2 {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 574px) {
+  .navbar .navbar-toggler {
+    background-color: #ffc178;
+    margin-top: 20px;
+  }
+  .header {
+    margin-top: 81px;
+  }
+  .header .text {
+    top: 120px;
+    margin-left: 10px;
+  }
+  .header .text h2 {
+    font-size: 17px;
+    line-height: 10px;
+  }
+  .header .text P {
+    font-size: 10px;
+    line-height: 12px;
+    width: 250px;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+  }
+  .header .text a {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  .Department h2 {
+    font-size: 25px;
+  }
+  .Department p {
+    margin: auto;
+    width: 290px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5a6e79;
+    font-weight: 400;
+    font-family: "Work Sans";
+    text-align: -webkit-match-parent;
+    margin-bottom: 50px;
+  }
+  .Department .card {
+    background-color: #f9703a;
+    border-radius: 1px;
+    height: 390px;
+  }
+  .Department .card .card-body h3 {
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+    text-align: center;
+  }
+  .department-2 h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 140px;
+    text-align: -webkit-center;
+  }
+  .department-2 .circle {
+    position: absolute;
+    margin-left: -212px;
+    width: 300%;
+    z-index: -1000;
+    margin-top: -50px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  .University h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .University .card3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .University .card2 {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+  .navbar .navbar-toggler {
+    background-color: #ffc178;
+    margin-top: 20px;
+  }
+  .header {
+    margin-top: 81px;
+  }
+  .header .text {
+    top: 120px;
+    margin-left: 10px;
+  }
+  .header .text h2 {
+    font-size: 17px;
+    line-height: 10px;
+  }
+  .header .text P {
+    font-size: 10px;
+    line-height: 12px;
+    width: 250px;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+  }
+  .header .text a {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+  .Department h2 {
+    font-size: 25px;
+  }
+  .Department p {
+    margin: auto;
+    width: 290px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5a6e79;
+    font-weight: 400;
+    font-family: "Work Sans";
+    text-align: -webkit-match-parent;
+    margin-bottom: 50px;
+  }
+  .Department .card {
+    background-color: #f9703a;
+    border-radius: 1px;
+    height: 390px;
+  }
+  .Department .card .card-body h3 {
+    font-size: 30px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans";
+    text-align: center;
+  }
+  .department-2 h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 140px;
+    text-align: -webkit-center;
+  }
+  .department-2 .circle {
+    position: absolute;
+    margin-left: -212px;
+    width: 300%;
+    z-index: -1000;
+    margin-top: -50px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+  }
+  .University h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .University .card3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .University .card2 {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    background-color: #fff9f3 !important;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+  }
+  .navbar .navbar-brand img {
+    width: 90px;
+  }
+  .navbar .navbar-toggler {
+    background-color: #ffc178;
+  }
+  .navbar .nav-link {
+    font-size: 10px;
+    color: black !important;
+    font-weight: 700;
+    font-family: "Work Sans";
+    text-transform: capitalize;
+  }
+  .navbar .nav-link:hover {
+    color: #ffc178 !important;
+  }
+  .navbar .active .nav-link {
+    color: #ffc178 !important;
+    border-bottom: 2px solid #ffc178 !important;
+  }
+  .navbar .Apply-Now {
+    text-align: center;
+    font-weight: 400;
+    width: 132px;
+    height: 44px;
+    color: #ffc178 !important;
+    border-radius: 22px;
+    -webkit-box-shadow: 0px 9px 35px #e3e3e9 !important;
+            box-shadow: 0px 9px 35px #e3e3e9 !important;
+    background-color: #ffffff !important;
+    line-height: 24px;
+  }
+  .header {
+    margin-top: 41px;
+  }
+  .header .text {
+    top: 120px;
+    margin-left: 10px;
+  }
+  .header .text h2 {
+    font-size: 27px;
+    line-height: 18px;
+  }
+  .header .text P {
+    font-size: 22px;
+    line-height: 24px;
+    width: 360px;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+  }
+  .header .text a {
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+  .department-2 h2 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 140px;
+    text-align: -webkit-center;
+  }
+  .department-2 .circle {
+    position: absolute;
+    margin-left: -264px;
+    width: 300%;
+    z-index: -1000;
+    margin-top: -160px;
+    -webkit-transform: scale(1.4);
+    transform: scale(1);
+  }
+  .University .card {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    width: 180px;
+    background-color: #fff9f3 !important;
+  }
+  .mobileMenu {
+    position: fixed;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    -webkit-transform: translate(-100%);
+            transform: translate(-100%);
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+  }
+  .mobileMenu.onRight {
+    left: auto;
+    right: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  .mobileMenu.open {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    overflow: hidden;
+  }
+}
+/*# sourceMappingURL=index.css.map */
